@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Network Accesible Storage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+input[type=text]{
+    outline: 0;
+  background: #f2f2f2;
+  width: 300px;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 0 5px 5px 0;
+}
+input[type=button],[type=submit]{
+    outline: 0;
+  background: #333;
+  width: 100px;
+  border: 0;
+  margin: 0 0 15px 0;
+  padding: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  
+}
+
+body {
+    background-color: white;
+    font-family: "Roboto",sans-serif;
+}
+.button {
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #333;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 0 100px 0;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px 0;
+  padding: 15px;
+  font-size: 14px;
+}
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    background-color: #3399ff;
+	position:absolute;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+	text-align:center;
+	padding:20px 8px 20px 8px;
+	font-size:20px;
+}
+
+li a.active {
+    background-color: black;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #4d4d4d;
+    color: white;
+}
+li a:hover{
+text-decoration:none;
+}
+.ptext1{
+margin-left:18%;
+padding-left:30px;
+padding-right:30px;
+text-align:justify;
+background-color:#cce6ff;
+}
+.ptexth{
+background-color:#cce6ff;
+margin-left:1%;
+margin-left:18%;
+font-family: "Georgia", serif;
+}
+
+.container-fluid1{
+padding-bottom:50px;
+padding-top:50px;
+background-image: url("img3.png");
+background-repeat: no-repeat;
+background-size: 1400px 300px;
+}
+.mainhead{
+ text-align:center;
+ color:black; 
+ font-size:70px;
+ font-family: "Georgia", serif;
+}
+.text1{
+text-align:center;
+color:#4d4d4d; 
+font-size:40px;
+font-family: "Georgia", serif;
+}
+
+</style>
+
+<body>
+
+<div class="container-fluid1">
+    <h3 class="mainhead">Network Acessible Storage</h3>
+    <h1 class="text1">Connecting to your personal cloud</h1>
+</div>
+	
+
+     <ul>
+      <li><a class="active" href="#home">Home</a></li>
+	  <li><a href="#login">Login</a></li>
+      <li><a href="#signup">Signup</a></li>
+    </ul>
+   
+   <div>
+		<html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body> 
+   </div>
+
+<div class="ptexth container-fluid">
+ 
+    <h1 style="text-align:center;">Software Components</h1>      
+    <p style="text-align:center; font-size:20px;">Description of the software components used in our project.</p>
+   
+</div>
+
+   <div class="ptext1 container-fluid" id="home">
+    <div>
+      <h3>Raspbian Operating System</h3>
+	
+      <p>Raspbian is a Linux based free operating system based on Debian optimized for the Raspberry Pi hardware.Raspbian is the Raspberry 
+	  Pi Foundation’s official supported OS. Raspbian comes pre-installed with plenty of software for education, programming and general use. t has Python,
+	  Scratch, Sonic Pi, Java, Mathematica and more.</p>
+    </div>
+    <div>
+      <h3>PHP</h3>
+      <p>PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is 
+	  especially suited for web development and can be embedded into HTML. PHP code may be embedded into HTML or HTML5 code, or it can be used in combination 
+	  with various web template systems, web content management systems and web frameworks. PHP code is usually processed by a PHP interpreter implemented 
+	  as a module in the web server or as a Common Gateway Interface (CGI) executable. The web server combines the results of the interpreted and executed 
+	  PHP code, which may be any type of data, including images, with the generated web page. PHP code may also be executed with a command-line 
+	  interface (CLI) and can be used to implement standalone graphical applications.</p>
+    </div>
+    <div>
+      <h3>Apache Webserver</h3>
+      <p>Apache is the most widely used web server software. Developed and maintained by Apache Software Foundation, Apache is an open source 
+	  software available for free. It runs on 67% of all webservers in the world. It is fast, reliable, and secure. It can be highly customized to meet the
+	  needs of many different environments by using extensions and modules.basically a web server is the software that receives your request to access a web
+	  page. It runs a few security checks on your HTTP request and takes you to the web page. Depending on the page you have requested, the page may ask the
+	  server to run a few extra modules while generating the document to serve you. It then serves you the document you requested.</p>
+    </div>
+    <div>
+	<h3>Dataplicity</h3>
+      <p>The Dataplicity client uses a opportunistically-connected secure web connection to provide a communications channel between your
+	  device and Dataplicity, and your web browser attaches to the other end of that channel.</p>
+    </div>
+  </div>
+
+ <div id="login">
+  <div class="login-page">
+  <div class="form">
+    <form class="login-form" action="login.php" method="post">
+      <input type="text" placeholder="username" name="username"/>
+      <input type="password" placeholder="password" name="password"/>
+      <input type="submit" value="login"/>
+      <p class="message">Not registered? <a href="signup.html">Create an account</a></p>
+    </form>
+  </div>
+</div>
+ 
+ </div>
+ 
+<div id="signup" style="padding-top:100px">
+<div class="login-page">
+  <div class="form">
+    <form class="login-form" method="post" action="signup.php">
+      <input type="text" placeholder="username" name="username"/>
+      <input type="password" placeholder="password" name="password"/>
+      <input type="submit" value="signup"/>
+      <p class="message">Already registered? <a href="login.html">Sign In</a></p>
+    </form>
+    </div>
+    </div>
+</div>
+
+</body></html>
+   </div>
+</form>
+</body>
+</html>
